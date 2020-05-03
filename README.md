@@ -73,7 +73,7 @@ The first APK or App Bundle needs to be uploaded via the Google Play Console bec
 SUPPORT ❤️
 -----
 
-Find this demo useful? Support it by joining [**stargazers**](https://github.com/aman-jham/google-gradle-play-publisher-demo/stargazers) for this repository ⭐️
+Find this demo useful? Support it by joining [**stargazers**](https://github.com/aman-jham/gradle-play-publisher-demo/stargazers) for this repository ⭐️
 <br/>
 And [**follow me**](https://github.com/aman-jham?tab=followers) for my next creations 👍
 
