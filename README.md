@@ -27,16 +27,23 @@ play {
 
 ```
 
-Step 2 - For Retrieve the play store listing such as icon, screenshot, title, description, etc..
+Step 2 - For Retrieve Play store listing assets
 ------
+
+Download all play store listing such as icon, feature-graphic, promo-graphic, tablet-screenshots, large-tablet-screenshots, tv-banner , tv-screenshots, wear-screenshots, title, short description, detailed description.
+
 ```gradle
 
 ./gradlew bootstrap --product
 
 ```
 
-Step 3 - For Updating the play store listing such as icon, screenshot, title, description, etc..
+Step 3 - For Updating the Play store listing
 ------
+
+Using this command can update the play store listing such as icon, feature-graphic, promo-graphic, tablet-screenshots, large-tablet-screenshots, tv-banner , tv-screenshots, wear-screenshots, title, short description, detailed description.
+
+
 ```gradle
 
 ./gradlew publishProducts
