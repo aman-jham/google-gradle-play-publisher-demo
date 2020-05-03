@@ -1,5 +1,5 @@
 Gradle play Publisher Demo For building, uploading, and then promoting your App Bundle or APK to publishing app listings and other metadata in google play console.
-
+-----
 
 
 
