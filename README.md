@@ -1,3 +1,5 @@
+<img src="assets/7.png">
+
 Gradle Play Publisher Demo 
 ========================================
 
