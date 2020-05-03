@@ -6,7 +6,7 @@ This is very useful plugin for building, uploading, and then promoting your App 
 Step 1 - Add Gradle Play Publisher Dependencies
 -----
 
-Open your app/build.gradle (Module: app) file, add the following to the very top.
+Open your build.gradle (Project Level) file, add the following to the very top.
 
 ```gradle
 
@@ -18,6 +18,10 @@ buildscript {
           classpath 'com.github.triplet.gradle:play-publisher:2.8.0-SNAPSHOT'
     }
 }
+```
+Open your app/build.gradle (Module: app) file, add the following to the very top.
+
+```gradle
 
 apply plugin: 'com.github.triplet.play'
 
@@ -50,7 +54,14 @@ Using this command can update the play store listing such as icon, feature-graph
 
 ```
 
+<img alt="Logo" src="assets/6.png"  />
+
 <img alt="Logo" src="assets/1.png"  />
+
+
+More info can be also be found in the [Gradle Play Publisher](https://github.com/Triple-T/gradle-play-publisher/blob/master/README.md).
+
+To get the Service Account json key follow this [Google Play Developer API](https://developers.google.com/android-publisher/getting_started)
 
 
 LIMITATION
