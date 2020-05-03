@@ -18,14 +18,30 @@ buildscript {
           classpath 'com.github.triplet.gradle:play-publisher:2.8.0-SNAPSHOT'
     }
 }
+
 apply plugin: 'com.github.triplet.play'
 
 play {
-    serviceAccountCredentials = file("your server acount .json")
+    serviceAccountCredentials = file("your-server-acount-key.json")
 }
 
 ```
 
+Step 2 - For Retrieve the play store listing such as icon, screenshot, title, description, etc..
+------
+```gradle
+
+./gradlew bootstrap --product
+
+```
+
+Step 3 - For Updating the play store listing such as icon, screenshot, title, description, etc..
+------
+```gradle
+
+./gradlew publishProducts
+
+```
 
 
 LIMITATION
