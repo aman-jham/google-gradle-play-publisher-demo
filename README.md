@@ -50,6 +50,8 @@ Using this command can update the play store listing such as icon, feature-graph
 
 ```
 
+<img alt="Logo" src="assets/1.png" width="25%" />
+
 
 LIMITATION
 -----
