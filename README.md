@@ -77,7 +77,3 @@ Find this demo useful? Support it by joining [**stargazers**](https://github.com
 <br/>
 And [**follow me**](https://github.com/aman-jham?tab=followers) for my next creations 👍
 
-LICENCE
------
-
-Google-Play-gradle-play-publisher-demo by [Aman Jham](https://www.linkedin.com/in/aman-jham-9436276a/) is licensed under a [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
