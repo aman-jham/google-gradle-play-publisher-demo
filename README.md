@@ -1,6 +1,30 @@
 Gradle Play Publisher Demo 
------
+========================================
+
 This is very useful plugin for building, uploading, and then promoting your App Bundle or APK to publishing app listings and other metadata in google play console.
+
+Step 1 - Add Gradle Play Publisher Dependencies
+-----
+
+Open your app/build.gradle (Module: app) file, add the following to the very top.
+
+```gradle
+
+buildscript {
+    repositories {
+         maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
+    }
+    dependencies {
+          classpath 'com.github.triplet.gradle:play-publisher:2.8.0-SNAPSHOT'
+    }
+}
+apply plugin: 'com.github.triplet.play'
+
+play {
+    serviceAccountCredentials = file("your server acount .json")
+}
+
+```
 
 
 
