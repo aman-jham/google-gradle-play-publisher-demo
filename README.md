@@ -5,7 +5,7 @@ Gradle Play Publisher Demo
 
 This is very useful plugin for building, uploading, and then promoting your App Bundle or APK to publishing app listings and other metadata in google play console.
 
-Step 1 - Add Gradle Play Publisher Dependencies
+Step 1 - Add Gradle Play Publisher Dependency
 -----
 
 Open your build.gradle (Project Level) file, add the following to the very top.
